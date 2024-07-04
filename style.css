@@ -1,0 +1,30 @@
+body 
+{
+background-image: linear-gradient(#F38FFA, #539EEE);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.h1 {
+    background-image: linear-gradient(#F38FFA, #539EEE);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(255, 0, 212);
+}
+.fadeIn{
+    animation: fadeIn 2s ease-in-out;
+}
+.play-button {
+color: darkblue;
+text-align: center;
+text-decoration: none;
+background-color: pink;
+border-radius: 10px;
+}
+
+@keyframes fadeIn {
+    0% 
+    {opacity: 0;}
+     100% 
+     {opacity: 1;}}
